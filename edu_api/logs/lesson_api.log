@@ -1,0 +1,1229 @@
+ERROR 2020-12-03 19:59:53,802 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 19:59:54,043 log 228 Bad Request: /
+WARNING 2020-12-03 19:59:54,045 basehttp 154 "GET / HTTP/1.1" 400 68938
+ERROR 2020-12-03 19:59:54,317 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 19:59:54,353 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 19:59:54,356 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68851
+ERROR 2020-12-03 20:04:36,972 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:04:37,003 log 228 Bad Request: /
+WARNING 2020-12-03 20:04:37,004 basehttp 154 "GET / HTTP/1.1" 400 69073
+ERROR 2020-12-03 20:04:37,087 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:04:37,120 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 20:04:37,121 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68851
+ERROR 2020-12-03 20:04:48,957 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:04:48,987 log 228 Bad Request: /admin
+WARNING 2020-12-03 20:04:48,987 basehttp 154 "GET /admin HTTP/1.1" 400 68993
+ERROR 2020-12-03 20:04:49,163 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:04:49,202 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 20:04:49,202 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68856
+ERROR 2020-12-03 20:16:56,030 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:16:56,208 log 228 Bad Request: /
+WARNING 2020-12-03 20:16:56,208 basehttp 154 "GET / HTTP/1.1" 400 68938
+ERROR 2020-12-03 20:16:56,438 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:16:56,478 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 20:16:56,479 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68851
+ERROR 2020-12-03 20:27:44,495 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:27:44,647 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 20:27:44,648 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68856
+ERROR 2020-12-03 20:59:52,706 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:59:55,240 log 228 Bad Request: /
+WARNING 2020-12-03 20:59:55,247 basehttp 154 "GET / HTTP/1.1" 400 68940
+ERROR 2020-12-03 20:59:55,674 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 20:59:55,706 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 20:59:55,707 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68853
+INFO 2020-12-03 21:00:55,681 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2020-12-03 21:00:55,723 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2020-12-03 21:00:55,878 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2020-12-03 21:00:55,903 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2020-12-03 21:00:55,908 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+WARNING 2020-12-03 21:00:55,951 log 228 Not Found: /favicon.ico
+WARNING 2020-12-03 21:00:55,953 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1981
+INFO 2020-12-03 21:01:06,679 basehttp 154 "GET /admin HTTP/1.1" 301 0
+INFO 2020-12-03 21:01:06,689 basehttp 154 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-12-03 21:01:06,968 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+INFO 2020-12-03 21:01:07,020 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2020-12-03 21:01:07,027 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+INFO 2020-12-03 21:01:07,027 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2020-12-03 21:01:16,658 basehttp 154 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+WARNING 2020-12-03 21:26:49,835 log 228 Not Found: /xadmin
+WARNING 2020-12-03 21:26:49,837 basehttp 154 "GET /xadmin HTTP/1.1" 404 2091
+INFO 2020-12-03 21:26:56,251 basehttp 154 "GET /admin/ HTTP/1.1" 200 4151
+INFO 2020-12-03 21:26:56,303 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-12-03 21:26:56,331 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-03 21:26:56,356 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2020-12-03 21:26:56,361 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-12-03 21:26:56,366 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-03 21:26:56,378 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-12-03 21:26:56,379 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-03 21:26:56,423 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-12-03 21:26:56,459 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-12-03 21:26:56,464 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-12-03 21:26:56,492 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-03 21:26:56,546 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-12-03 21:26:56,547 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-03 21:26:56,576 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-03 21:26:56,583 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-12-03 21:26:56,690 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2020-12-03 21:27:06,994 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-03 21:27:07,092 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:27:07,126 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-12-03 21:27:07,136 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-12-03 21:27:07,154 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:07,156 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-12-03 21:27:21,602 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:27:21,631 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2020-12-03 21:27:21,635 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2020-12-03 21:27:21,644 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:21,650 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2020-12-03 21:27:21,673 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2020-12-03 21:27:21,684 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2020-12-03 21:27:21,708 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2020-12-03 21:27:24,169 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:27:24,202 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2020-12-03 21:27:24,209 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:38,235 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+INFO 2020-12-03 21:27:38,316 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2020-12-03 21:27:38,317 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2020-12-03 21:27:38,338 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+WARNING 2020-12-03 21:27:38,345 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:27:38,346 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2020-12-03 21:27:38,367 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2020-12-03 21:27:38,377 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2020-12-03 21:27:38,380 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:38,390 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2020-12-03 21:27:38,415 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2020-12-03 21:27:38,422 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+WARNING 2020-12-03 21:27:38,520 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:27:40,085 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:27:40,127 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:41,935 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 84021
+INFO 2020-12-03 21:27:41,981 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:27:48,360 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:27:48,397 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:27:48,407 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:27:48,482 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:27:52,083 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:27:52,115 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:28:01,146 basehttp 154 "GET /admin/auth/user/?_cols=id.username.email.first_name.last_name.is_staff HTTP/1.1" 200 34043
+INFO 2020-12-03 21:28:01,179 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:28:03,975 basehttp 154 "GET /admin/auth/user/?_cols=id.username.email.first_name.last_name.is_staff.password HTTP/1.1" 200 35462
+INFO 2020-12-03 21:28:04,008 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:28:09,849 basehttp 154 "GET /admin/auth/user/?_cols=id.username.email.first_name.last_name.is_staff.password.is_active HTTP/1.1" 200 36919
+INFO 2020-12-03 21:28:09,890 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:28:19,586 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:28:19,623 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:28:19,635 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:28:19,675 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:28:28,719 basehttp 154 "GET /admin/xadmin/log/add/ HTTP/1.1" 200 15076
+INFO 2020-12-03 21:28:28,753 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2020-12-03 21:28:28,765 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:28:28,785 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:28:35,845 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:28:35,881 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:33:55,092 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:33:55,148 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:16,645 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:34:16,696 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:43,025 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:34:43,059 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:45,433 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:34:45,459 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:47,339 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:34:47,383 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:34:47,384 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:34:47,476 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:34:49,339 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:34:49,368 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:50,728 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:34:50,754 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:51,746 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:34:51,797 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:53,481 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 84021
+INFO 2020-12-03 21:34:53,535 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:54,948 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:34:54,981 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:55,471 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:34:55,509 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:34:56,671 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:34:56,702 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:34:56,712 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:34:56,753 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:34:57,314 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:34:57,349 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:23,162 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:35:23,206 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:30,343 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:35:30,378 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:31,576 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:35:31,608 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:32,929 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 84021
+INFO 2020-12-03 21:35:32,962 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:34,629 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:35:34,677 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:35:34,686 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:35:34,765 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:35:35,825 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:35:35,855 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:36,895 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:35:36,924 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:35:36,931 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:35:36,960 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+ERROR 2020-12-03 21:35:47,813 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8003'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2020-12-03 21:35:47,852 log 228 Bad Request: /favicon.ico
+WARNING 2020-12-03 21:35:47,853 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 68887
+INFO 2020-12-03 21:35:50,211 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:35:50,272 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:35:52,101 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:35:52,148 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:35:52,153 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:35:52,201 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:01,356 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 30542
+INFO 2020-12-03 21:36:01,391 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:36:11,790 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:36:11,824 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:36:14,268 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 84021
+INFO 2020-12-03 21:36:14,298 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:36:15,601 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:36:15,644 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:15,649 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:36:15,701 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:17,152 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:36:17,187 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:36:30,107 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:36:30,150 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:30,172 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:36:30,231 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:36,453 basehttp 154 "GET /admin/xadmin/log/add/ HTTP/1.1" 200 15076
+WARNING 2020-12-03 21:36:36,488 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:36,501 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:36:36,573 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:42,108 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:36:42,148 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:46,399 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:36:46,436 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:46,442 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:36:46,481 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:47,282 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:36:47,315 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:36:47,319 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:36:47,361 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:37:45,130 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:37:45,194 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:37:45,198 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:37:45,271 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:37:46,183 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:37:46,215 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:37:46,222 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:37:46,237 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:42:49,343 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 4162
+INFO 2020-12-03 21:42:49,386 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,403 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,408 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,408 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,418 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,421 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,429 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2020-12-03 21:42:49,433 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,434 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,436 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,439 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,441 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,445 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,445 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,446 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:49,660 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-12-03 21:42:53,212 basehttp 154 "POST /admin/xadmin/log/ HTTP/1.1" 200 4391
+INFO 2020-12-03 21:42:53,257 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4158
+INFO 2020-12-03 21:43:58,682 basehttp 154 "POST /admin/xadmin/log/ HTTP/1.1" 302 0
+INFO 2020-12-03 21:43:58,798 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+INFO 2020-12-03 21:43:58,864 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,874 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:43:58,876 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,876 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,883 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,885 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,885 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,889 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,892 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+WARNING 2020-12-03 21:43:58,892 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:43:58,893 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,895 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,897 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,898 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,898 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,907 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:43:58,917 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+WARNING 2020-12-03 21:43:59,066 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:02,659 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28284
+INFO 2020-12-03 21:44:02,686 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:44:02,699 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:04,374 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:44:04,411 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:05,699 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80764
+INFO 2020-12-03 21:44:05,729 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:06,883 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28284
+INFO 2020-12-03 21:44:06,915 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:07,497 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:44:07,544 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:08,319 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:44:08,358 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:08,369 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:44:08,430 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:10,744 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:44:10,797 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:44:10,801 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:10,860 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:44:10,912 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:44:11,858 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:44:11,889 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:11,895 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:44:11,926 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:35,441 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:44:35,479 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:36,939 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28284
+INFO 2020-12-03 21:44:36,973 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:39,144 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80764
+INFO 2020-12-03 21:44:39,189 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:44:40,728 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24852
+WARNING 2020-12-03 21:44:40,758 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:40,767 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+WARNING 2020-12-03 21:44:40,804 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_en-us.js HTTP/1.1" 404 1767
+INFO 2020-12-03 21:44:41,555 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:44:41,588 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2020-12-03 21:44:46,243 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 120, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 139, in render_field
+    html = template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2020-12-03 21:44:46,257 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 673815
+INFO 2020-12-03 21:44:50,416 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:44:53,899 basehttp 154 "GET /admin/auth/group/add/ HTTP/1.1" 200 15003
+INFO 2020-12-03 21:44:53,928 basehttp 154 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2020-12-03 21:44:53,942 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:44:53,944 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2020-12-03 21:44:53,944 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:45:01,864 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:45:07,392 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80764
+INFO 2020-12-03 21:45:07,433 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:45:08,687 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:45:08,724 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:45:10,311 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28284
+INFO 2020-12-03 21:45:10,358 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:45:11,635 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18306
+INFO 2020-12-03 21:45:11,671 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-12-03 21:45:28,459 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:45:28,492 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+ERROR 2020-12-03 21:45:32,981 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 120, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 139, in render_field
+    html = template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2020-12-03 21:45:33,022 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 673815
+INFO 2020-12-03 21:45:34,838 basehttp 154 "GET /admin/ HTTP/1.1" 200 9037
+INFO 2020-12-03 21:46:07,711 basehttp 154 "GET /admin/ HTTP/1.1" 200 9023
+INFO 2020-12-03 21:46:07,961 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:14,683 basehttp 154 "GET /admin/ HTTP/1.1" 200 9023
+INFO 2020-12-03 21:46:14,714 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:18,496 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18245
+INFO 2020-12-03 21:46:18,532 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:19,561 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28263
+INFO 2020-12-03 21:46:19,596 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:20,845 basehttp 154 "GET /admin/auth/permission/ HTTP/1.1" 200 80417
+INFO 2020-12-03 21:46:20,874 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:22,737 basehttp 154 "GET /admin/auth/user/ HTTP/1.1" 200 28263
+INFO 2020-12-03 21:46:22,772 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:23,358 basehttp 154 "GET /admin/auth/group/ HTTP/1.1" 200 18245
+INFO 2020-12-03 21:46:23,389 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:25,282 basehttp 154 "GET /admin/xadmin/log/ HTTP/1.1" 200 24840
+INFO 2020-12-03 21:46:25,319 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+INFO 2020-12-03 21:46:25,330 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:46:26,564 basehttp 154 "GET /admin/ HTTP/1.1" 200 9023
+INFO 2020-12-03 21:46:26,594 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2020-12-03 21:46:30,405 log 228 Internal Server Error: /admin/xadmin/userwidget/add/
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 154, in _get_response
+    response = response.render()
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\pyweb\enves\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 203, in render
+    c = self.get_render(context).flatten()
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_tags.py", line 120, in get_render
+    actual_form, node_context, template_pack=self.template_pack
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\helper.py", line 301, in render_layout
+    html = self.layout.render(form, self.form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 135, in render
+    return self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 367, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 66, in render_field
+    return field.render(form, form_style, context, template_pack=template_pack)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 289, in render
+    fields = self.get_rendered_fields(form, form_style, context, template_pack, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in get_rendered_fields
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\layout.py", line 98, in <genexpr>
+    for field in self.fields
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\utils.py", line 139, in render_field
+    html = template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\pyweb\enves\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\pyweb\enves\lib\site-packages\crispy_forms\templatetags\crispy_forms_field.py", line 155, in render
+    return str(field)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\html.py", line 397, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 33, in __str__
+    return self.as_widget()
+  File "E:\pyweb\enves\lib\site-packages\django\forms\boundfield.py", line 93, in as_widget
+    renderer=self.form.renderer,
+TypeError: render() got an unexpected keyword argument 'renderer'
+ERROR 2020-12-03 21:46:30,417 basehttp 154 "GET /admin/xadmin/userwidget/add/?user=1&page_id=home&_redirect=/admin/ HTTP/1.1" 500 681254
+INFO 2020-12-03 21:46:33,078 basehttp 154 "GET /admin/ HTTP/1.1" 200 9023
+INFO 2020-12-03 21:49:55,307 basehttp 154 "GET /admin/ HTTP/1.1" 200 4147
+INFO 2020-12-03 21:49:55,372 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2020-12-03 21:49:55,395 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2020-12-03 21:49:55,400 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2020-12-03 21:49:55,425 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2020-12-03 21:49:55,432 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-12-03 21:49:55,434 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2020-12-03 21:49:55,445 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2020-12-03 21:49:55,472 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4154
+INFO 2020-12-03 21:49:55,476 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2020-12-03 21:49:55,489 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2020-12-03 21:49:55,531 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2020-12-03 21:49:55,540 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2020-12-03 21:49:55,565 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2020-12-03 21:49:55,596 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2020-12-03 21:49:55,658 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2020-12-03 21:49:55,679 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+WARNING 2020-12-03 21:49:55,706 log 228 Not Found: /favicon.ico
+WARNING 2020-12-03 21:49:55,709 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2106
+INFO 2020-12-03 21:50:04,060 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-03 21:50:04,123 basehttp 154 "GET /admin/ HTTP/1.1" 200 9023
+INFO 2020-12-03 21:50:04,198 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2020-12-03 21:50:04,250 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:50:04,306 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2020-12-03 21:50:04,339 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2020-12-03 21:55:57,425 basehttp 154 "GET /admin/ HTTP/1.1" 200 13577
+INFO 2020-12-03 21:55:57,458 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2020-12-03 21:55:57,461 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,462 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,462 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,463 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,467 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,467 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,469 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,475 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2020-12-03 21:55:57,476 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,484 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:55:57,485 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,485 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,490 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,491 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,491 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,503 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:55:57,524 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2020-12-03 21:56:08,528 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 23103
+INFO 2020-12-03 21:56:08,568 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:56:40,751 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18620
+INFO 2020-12-03 21:56:40,792 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-03 21:56:40,801 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:56:40,805 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:56:40,871 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2020-12-03 21:56:40,917 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2020-12-03 21:56:40,947 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+ERROR 2020-12-03 21:57:12,601 log 228 Internal Server Error: /admin/home/banner/add/
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1366, "Incorrect string value: '\\xE5\\xB7\\xB2\\xE6\\xB7\\xBB...' for column 'message' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\users\14590\appdata\local\programs\python\python37\lib\contextlib.py", line 74, in inner
+    return func(*args, **kwds)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\edit.py", line 292, in post
+    self.save_models()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\edit.py", line 269, in save_models
+    self.log(flag, self.change_message(), self.new_obj)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 232, in log
+    log.save()
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xE5\\xB7\\xB2\\xE6\\xB7\\xBB...' for column 'message' at row 1")
+ERROR 2020-12-03 21:57:12,611 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 500 247715
+INFO 2020-12-03 21:59:41,359 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 23103
+INFO 2020-12-03 21:59:43,768 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 23103
+INFO 2020-12-03 21:59:43,797 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:59:43,806 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:59:43,807 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 21:59:43,810 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:59:43,815 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:59:45,811 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18620
+INFO 2020-12-03 21:59:45,848 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-03 21:59:45,858 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2020-12-03 21:59:56,850 log 228 Internal Server Error: /admin/home/banner/add/
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1366, "Incorrect string value: '\\xE5\\x85\\xA5\\xE9\\x97\\xA8' for column 'title' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\pyweb\enves\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\utils\decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "c:\users\14590\appdata\local\programs\python\python37\lib\contextlib.py", line 74, in inner
+    return func(*args, **kwds)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\edit.py", line 292, in post
+    self.save_models()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 49, in filter_chain
+    return func()
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\xadmin\views\edit.py", line 267, in save_models
+    self.new_obj.save()
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\pyweb\enves\lib\site-packages\django\db\models\sql\compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "E:\pyweb\enves\lib\site-packages\django\db\backends\mysql\base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "E:\pyweb\enves\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1366, "Incorrect string value: '\\xE5\\x85\\xA5\\xE9\\x97\\xA8' for column 'title' at row 1")
+ERROR 2020-12-03 21:59:56,864 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 500 240337
+INFO 2020-12-03 22:09:39,891 basehttp 154 "GET /admin/ HTTP/1.1" 200 4350
+INFO 2020-12-03 22:09:39,960 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
+INFO 2020-12-03 22:09:59,775 basehttp 154 "GET /admin/ HTTP/1.1" 200 4350
+INFO 2020-12-03 22:09:59,822 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,826 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,826 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 4357
+INFO 2020-12-03 22:09:59,827 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,828 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,832 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,834 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,840 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,842 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,844 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,848 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,849 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,855 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,901 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,914 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,915 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:09:59,915 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:11,958 basehttp 154 "POST /admin/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:10:15,015 basehttp 154 "GET /admin/ HTTP/1.1" 200 13577
+INFO 2020-12-03 22:10:15,135 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:10:15,152 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:15,156 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:19,527 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 23103
+INFO 2020-12-03 22:10:19,571 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:10:21,445 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18620
+INFO 2020-12-03 22:10:21,483 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:10:33,645 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:10:33,809 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 27119
+INFO 2020-12-03 22:10:33,866 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:33,872 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:10:57,201 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18620
+INFO 2020-12-03 22:10:57,227 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:57,228 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:57,236 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:57,237 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:10:57,243 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:10:57,244 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:11:12,791 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:11:12,894 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18967
+INFO 2020-12-03 22:11:12,929 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:11:31,668 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:11:31,749 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28307
+INFO 2020-12-03 22:11:31,784 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:17:07,464 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 23539
+INFO 2020-12-03 22:17:07,493 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:07,499 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:17:07,500 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:07,501 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:07,504 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,812 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 17962
+INFO 2020-12-03 22:17:08,836 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,842 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,848 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:17:08,849 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,852 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,852 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,915 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,915 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:17:08,916 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:27,952 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:38:28,035 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 27549
+INFO 2020-12-03 22:38:28,067 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,077 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,081 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,098 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,103 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,106 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:38:28,110 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,110 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,116 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,118 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,118 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,123 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,124 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,125 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,129 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,133 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,136 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,137 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,141 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,143 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,143 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,144 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,145 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:28,147 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,003 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 17962
+INFO 2020-12-03 22:38:32,036 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,036 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,037 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,038 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,040 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,041 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:38:32,041 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,042 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:38:32,045 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2020-12-03 22:39:16,983 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:39:17,092 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 18306
+INFO 2020-12-03 22:39:17,123 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:39:26,613 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:39:26,723 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 18308
+INFO 2020-12-03 22:39:26,760 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:39:35,468 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:39:35,572 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 18300
+INFO 2020-12-03 22:39:35,599 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:39:45,450 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:39:45,559 basehttp 154 "GET /admin/home/nav/add/ HTTP/1.1" 200 18300
+INFO 2020-12-03 22:39:45,596 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:39:55,574 basehttp 154 "POST /admin/home/nav/add/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:39:55,666 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30461
+INFO 2020-12-03 22:39:55,701 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:02,136 basehttp 154 "GET /admin/home/nav/6/update/ HTTP/1.1" 200 18248
+INFO 2020-12-03 22:40:02,172 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:07,074 basehttp 154 "POST /admin/home/nav/6/update/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:40:07,164 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30403
+INFO 2020-12-03 22:40:07,197 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:10,448 basehttp 154 "GET /admin/home/nav/5/update/ HTTP/1.1" 200 18248
+INFO 2020-12-03 22:40:10,484 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:12,919 basehttp 154 "POST /admin/home/nav/5/update/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:40:13,000 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30404
+INFO 2020-12-03 22:40:13,033 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:14,116 basehttp 154 "GET /admin/home/nav/4/update/ HTTP/1.1" 200 18248
+INFO 2020-12-03 22:40:14,147 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:16,605 basehttp 154 "POST /admin/home/nav/4/update/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:40:16,690 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30405
+INFO 2020-12-03 22:40:16,721 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:17,708 basehttp 154 "GET /admin/home/nav/3/update/ HTTP/1.1" 200 18280
+INFO 2020-12-03 22:40:17,741 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:19,907 basehttp 154 "POST /admin/home/nav/3/update/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:40:20,005 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30414
+INFO 2020-12-03 22:40:20,043 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:20,812 basehttp 154 "GET /admin/home/nav/2/update/ HTTP/1.1" 200 18272
+INFO 2020-12-03 22:40:20,849 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-03 22:40:23,380 basehttp 154 "POST /admin/home/nav/2/update/ HTTP/1.1" 302 0
+INFO 2020-12-03 22:40:23,466 basehttp 154 "GET /admin/home/nav/ HTTP/1.1" 200 30413
+INFO 2020-12-03 22:40:23,497 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:18:42,436 basehttp 154 "GET /admin/ HTTP/1.1" 200 13577
+INFO 2020-12-04 00:18:42,502 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,514 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,514 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,514 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,515 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,525 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,535 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,558 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,579 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:18:42,584 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,601 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,614 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,614 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,615 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,619 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,635 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,639 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,649 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,663 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,678 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:42,995 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2020-12-04 00:18:43,110 log 228 Not Found: /favicon.ico
+WARNING 2020-12-04 00:18:43,111 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2211
+INFO 2020-12-04 00:18:46,968 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28006
+INFO 2020-12-04 00:18:47,002 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,010 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:18:47,023 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,034 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,034 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,049 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,091 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:47,103 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:18:51,593 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28006
+INFO 2020-12-04 00:18:51,620 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:19:07,367 basehttp 154 "POST /admin/home/banner/ HTTP/1.1" 200 14145
+INFO 2020-12-04 00:19:07,395 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:19:08,959 basehttp 154 "POST /admin/home/banner/ HTTP/1.1" 302 0
+INFO 2020-12-04 00:19:09,038 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 23329
+INFO 2020-12-04 00:19:09,065 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:19:14,496 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18620
+INFO 2020-12-04 00:19:14,527 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 304 0
+INFO 2020-12-04 00:19:14,544 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:19:14,545 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:19:14,548 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 304 0
+INFO 2020-12-04 00:20:09,233 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-04 00:20:09,336 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18963
+INFO 2020-12-04 00:20:09,366 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:20:23,952 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-04 00:20:24,047 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18967
+INFO 2020-12-04 00:20:24,084 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:20:45,898 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-04 00:20:45,994 basehttp 154 "GET /admin/home/banner/add/ HTTP/1.1" 200 18969
+INFO 2020-12-04 00:20:46,021 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:20:57,312 basehttp 154 "POST /admin/home/banner/add/ HTTP/1.1" 302 0
+INFO 2020-12-04 00:20:57,400 basehttp 154 "GET /admin/home/banner/ HTTP/1.1" 200 28883
+INFO 2020-12-04 00:20:57,429 basehttp 154 "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2020-12-04 00:24:12,936 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:24:19,185 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:25:32,931 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:28:34,824 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 6370
+INFO 2020-12-04 00:28:34,918 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2020-12-04 00:28:34,931 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2020-12-04 00:28:34,938 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2020-12-04 00:28:34,940 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2020-12-04 00:28:34,946 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2020-12-04 00:28:34,952 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2020-12-04 00:28:34,961 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2020-12-04 00:28:34,966 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2020-12-04 00:28:34,978 basehttp 154 "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+INFO 2020-12-04 00:28:34,997 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2020-12-04 00:28:35,004 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+WARNING 2020-12-04 00:28:35,153 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1752
+INFO 2020-12-04 00:29:42,355 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:35:47,528 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:41:09,843 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:41:29,300 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 6370
+INFO 2020-12-04 00:45:40,135 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:45:40,571 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 200 745382
+INFO 2020-12-04 00:45:40,664 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 200 688041
+INFO 2020-12-04 00:45:40,713 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 200 364808
+INFO 2020-12-04 00:45:40,714 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 200 737783
+INFO 2020-12-04 00:56:50,176 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:56:50,197 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-12-04 00:56:50,197 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-12-04 00:56:50,203 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-12-04 00:56:50,232 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 304 0
+INFO 2020-12-04 00:57:30,330 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:57:47,753 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 00:57:59,099 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:03:52,644 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:03:52,661 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:03:52,668 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:03:52,669 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:03:52,676 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:03:55,452 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:03:56,698 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:03:57,803 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:03:58,821 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:04:02,963 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 333
+INFO 2020-12-04 01:05:17,887 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:07:57,225 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:08:33,423 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:08:33,492 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:08:33,522 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:08:33,540 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:08:33,567 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:09:23,028 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 6419
+INFO 2020-12-04 01:11:37,604 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:14:07,939 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:07,960 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:11,153 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:11,176 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:14:11,188 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:11,221 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:14:11,226 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:14:11,230 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:14:11,273 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:14:53,455 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:53,469 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:14:53,472 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:15:20,281 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:15:20,284 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:15:20,297 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:15:23,818 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:15:23,821 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:15:23,854 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:16:14,559 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:16:14,572 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:16:14,631 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:16:16,179 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:16:16,182 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:16:16,220 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 396
+INFO 2020-12-04 01:20:08,012 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 431
+INFO 2020-12-04 01:20:08,026 basehttp 154 "GET /home/banners/ HTTP/1.1" 200 369
+INFO 2020-12-04 01:20:08,029 basehttp 154 "GET /home/navs/ HTTP/1.1" 200 431
+INFO 2020-12-04 01:20:08,163 basehttp 154 "GET /media/banner/01.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:20:08,177 basehttp 154 "GET /media/banner/03.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:20:08,178 basehttp 154 "GET /media/banner/02.png HTTP/1.1" 304 0
+INFO 2020-12-04 01:20:08,186 basehttp 154 "GET /media/banner/04.png HTTP/1.1" 304 0
