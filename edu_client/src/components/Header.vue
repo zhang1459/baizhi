@@ -6,17 +6,29 @@
           <router-link to="/"><img src="../static/image/logo.png" alt=""></router-link>
         </div>
         <ul class="nav full-left">
-          <li v-for="(nav,index) in header_list" :key="index"><a :href="nav.link" v-if="nav.is_position == 1">{{ nav.title }}</a></li>
+          <li v-for="(nav,index) in header_list" :key="index"><router-link to="/course" v-if="nav.is_position == 1">{{ nav.title }}</router-link></li>
         </ul>
-        <div class="login-bar full-right">
+        <div class="login-bar full-right" v-if="token">
           <div class="shop-cart full-left">
-            <img src="/static/image/cart.svg" alt="">
-            <span><router-link to="/cart">购物车</router-link></span>
+            <img src="../static/image/cart.svg" alt="">
+            <span><router-link to="/cart">{{this.$store.state.cart_length}}购物车</router-link></span>
           </div>
           <div class="login-box full-left">
-            <span>登录</span>
+            <router-link to="/login">{{ username }}</router-link>
             &nbsp;|&nbsp;
-            <span>注册</span>
+            <span @click="back_login">退出登录</span>
+          </div>
+        </div>
+
+        <div class="login-bar full-right" v-else>
+          <div class="shop-cart full-left" @click="check_user_login">
+            <img src="../static/image/cart.svg" alt="">
+            <span>购物车</span>
+          </div>
+          <div class="login-box full-left">
+            <router-link to="/login" >登录</router-link>
+            &nbsp;|&nbsp;
+            <router-link to="/register">注册</router-link>
           </div>
         </div>
       </div>
@@ -26,16 +38,36 @@
 
 <script>
 export default {
-  name: "Footer",
+  name: "Header",
   data:function () {
     return{
-      header_list : []
+      header_list : [],
+      token:"",
+      username:""
     }
   },
 
   methods:{
+    check_user_login(){
+        let self = this
+        this.$confirm("对不起，请先登录再添加购物车",{
+          callback(){
+            self.$router.push("/login")
+          }
+        })
+        return false
+    },
 
-      // 获取所有轮播图的方法
+      back_login(){
+        localStorage.removeItem('token')
+        sessionStorage.removeItem('token')
+        sessionStorage.removeItem('username')
+
+        this.token = ''
+        this.username = ''
+
+      },
+
       get_all_header() {
         this.$axios({
           url: this.$settings.HOST + "home/navs/",
@@ -46,9 +78,17 @@ export default {
           console.log(error);
         })
       },
+      get_token() {
+        this.token = localStorage.token || sessionStorage.token;
+        this.username = localStorage.username || sessionStorage.username
+      },
+
     },
     created() {
+
       this.get_all_header()
+      this.get_token()
+
     },
 
 

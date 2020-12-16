@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-
+import datetime
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -28,7 +28,8 @@ SECRET_KEY = '6vy!aptd4_00*zs4k0z*auuefom)gd^0+*-^4a%uw6xbfon^ct'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "api.baizhiedu.com"
+    "api.baizhiedu.com",
+    '127.0.0.1'
 ]
 
 
@@ -47,7 +48,15 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    'ckeditor',
+    'ckeditor_uploader',
+
     'home',
+    'user',
+    'course',
+    'cart',
+    'order',
+    'payments'
 
 
 ]
@@ -127,13 +136,13 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -144,6 +153,16 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+CKEDITOR_UPLOAD_PATH = ''
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 完整工具条
+        'height': 300,  # 编辑高度
+        'width': 1000
+    },
+}
 
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -196,4 +215,73 @@ LOGGING = {
             'propagate': True,  # 是否让日志信息继续冒泡给其他的日志处理系统
         },
     }
+}
+AUTH_USER_MODEL = 'user.UserInfo'
+
+REST_FRAMEWORK = {
+    # 全局异常配置
+    'EXCEPTION_HANDLER': 'rest_framework.views.exception_handler',
+
+    # 认证方式
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ],
+}
+
+
+
+# jwt相关配置
+JWT_AUTH = {
+
+    # token的有效时间
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=30000),
+
+    # jwt返回数据的格式
+    'JWT_RESPONSE_PAYLOAD_HANDLER':
+        'user.service.jwt_response_payload_handler',
+}
+
+# 自定义多条件登录
+AUTHENTICATION_BACKENDS = [
+    'user.service.UserAuthentication',
+]
+
+CACHES = {
+    #默认库
+      "default": {
+         "BACKEND": "django_redis.cache.RedisCache",
+         "LOCATION": "redis://127.0.0.1:6379/1",
+         "OPTIONS": {
+           "CLIENT_CLASS": "django_redis.client.DefaultClient"
+         }
+      },
+        "sms_code": {
+                 "BACKEND": "django_redis.cache.RedisCache",
+                 "LOCATION": "redis://127.0.0.1:6379/2",
+                 "OPTIONS": {
+                   "CLIENT_CLASS": "django_redis.client.DefaultClient"
+                 }
+              },
+        "cart": {
+                 "BACKEND": "django_redis.cache.RedisCache",
+                 "LOCATION": "redis://127.0.0.1:6379/3",
+                 "OPTIONS": {
+                   "CLIENT_CLASS": "django_redis.client.DefaultClient"
+                 }
+              }
+}
+
+ALIAPY_CONFIG = {
+    # "gateway_url": "https://openapi.alipay.com/gateway.do?", # 真实支付宝网关地址
+    "gateway_url": "https://openapi.alipaydev.com/gateway.do?",  # 沙箱支付宝网关地址
+    "appid": "2016102200738366",
+    "app_notify_url": None,
+    "app_private_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/app_private_key.pem")).read(),
+    "alipay_public_key_path": open(os.path.join(BASE_DIR, "apps/payments/keys/alipay_public_key.pem")).read(),
+    "sign_type": "RSA2",
+    "debug": False,
+    "return_url": "http://localhost:8080/result",  # 同步回调地址
+    "notify_url": "http://127.0.0.1:8003/payments/result",  # 异步结果通知
 }

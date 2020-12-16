@@ -24,7 +24,6 @@ export default {
 
   methods:{
 
-      // 获取所有轮播图的方法
       get_all_footer() {
         this.$axios({
           url: this.$settings.HOST + "home/navs/",
